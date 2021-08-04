@@ -1,19 +1,9 @@
 {
-  "homepage": "https://5studios.net/themes/laapp-react",
-  "name": "laap-app-landing-page",
+  "homepage": ".",
+  "name": "ryyber-website",
   "version": "1.0.0",
-  "description": "Lapp react version",
+  "description": "main website for Ryyber",
   "main": "index.js",
-  "keywords": [
-    "react",
-    "reactjs",
-    "laapp",
-    "laapp-react",
-    "design-react",
-    "react-kit",
-    "design-system-react"
-  ],
-  "author": "5studios.net",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
