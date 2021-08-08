@@ -89,11 +89,11 @@ class DefaultNavbar extends React.Component {
             </div>
 
             <Nav className="nav navbar-nav ml-auto" navbar>
-              <Link onClick={this.toggleNavbar} className="nav-link" to="what" smooth>Mikä</Link>
-              <Link onClick={this.toggleNavbar} className="nav-link" to="app" smooth>Sovellus</Link>
-              <Link onClick={this.toggleNavbar} className="nav-link" to="about" smooth>Meistä</Link>
-              <Link onClick={this.toggleNavbar} className="nav-link" to="roadmap" smooth>Suunnitelma</Link>
-              <Link onClick={this.toggleNavbar} className="nav-link" to="faq" smooth>kysyttyä</Link>
+              <Link onClick={this.toggleNavbar} className="nav-link" to="what" smooth offset={-50}>Mikä</Link>
+              <Link onClick={this.toggleNavbar} className="nav-link" to="app" smooth offset={-50}>Sovellus</Link>
+              <Link onClick={this.toggleNavbar} className="nav-link" to="about" smooth offset={-50}>Meistä</Link>
+              <Link onClick={this.toggleNavbar} className="nav-link" to="roadmap" smooth offset={-50}>Suunnitelma</Link>
+              <Link onClick={this.toggleNavbar} className="nav-link" to="faq" smooth offset={-50}>kysyttyä</Link>
             </Nav>
           </div>
         </Container>

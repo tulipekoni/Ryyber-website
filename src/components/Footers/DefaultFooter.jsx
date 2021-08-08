@@ -24,23 +24,23 @@ const DefaultFooter = () => {
 
           <Col md="2">
             <Nav className="flex-column" tag="nav">
-              <Link to="what" smooth className="py-2 text-contrast" href="#">
+              <Link to="what" smooth offset={-50} className="py-2 text-contrast" href="#">
                 Mikä
               </Link>
-              <Link to="app" smooth className="py-2 text-contrast" href="#">
+              <Link to="app" smooth offset={-50} className="py-2 text-contrast" href="#">
                 Sovellus
               </Link>
-              <Link to="about" smooth className="py-2 text-contrast" href="#">
+              <Link to="about" smooth offset={-50} className="py-2 text-contrast" href="#">
                 Meistä
               </Link>
             </Nav>
           </Col>
           <Col md="2">
             <Nav className="flex-column" tag="nav">
-              <Link to="roadmap" smooth className="py-2 text-contrast" href="#">
+              <Link to="roadmap" smooth offset={-50} className="py-2 text-contrast" href="#">
                 Suunnitelma
               </Link>
-              <Link to="faq" smooth className="py-2 text-contrast" href="#">
+              <Link to="faq" smooth offset={-50} className="py-2 text-contrast" href="#">
                 Kysyttyä
               </Link>
 
