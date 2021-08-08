@@ -48,7 +48,7 @@ const renderFeatures = () => {
 
 const WhyUs = () => {
   return (
-    <section id="roadmap" className="section why-choose-us">
+    <section id="roadmap" className="section why-choose-us text-center text-lg-left">
       <div className="shapes-container">
         <div className="pattern pattern-dots" />
       </div>

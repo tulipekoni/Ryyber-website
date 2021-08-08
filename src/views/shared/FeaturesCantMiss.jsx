@@ -36,7 +36,7 @@ const FeaturesCantMiss = () => {
           <Col md={{ size: 6, order: "last" }}>
             <div className="section-heading">
 
-              <h2 className="heading-line">Mihin kaikkeen Ryyber soveltuu?</h2>
+              <h2 className="heading-line text-center text-md-left">Mihin kaikkeen Ryyber soveltuu?</h2>
             </div>
 
             <ul className="list-unstyled">

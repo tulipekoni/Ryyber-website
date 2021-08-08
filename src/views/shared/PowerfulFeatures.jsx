@@ -67,7 +67,7 @@ const PowerfulFeatures = () => {
       <Container>
         <Row>
           <Col lg="5" className="order-lg-last">
-            <div className="section-heading">
+            <div className="section-heading text-center text-lg-left">
               <p className="px-2 text-alternate text-uppercase bold">
                 Mikä Ryyber?
               </p>
