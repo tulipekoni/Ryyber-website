@@ -23,7 +23,7 @@ const questions = [
   {
     question: "Olisin kiinnostunut kuulemaan järjestelmästä lisää. Miten teihin voi ottaa yhteyttä?",
     answer:
-      "Hienoa kuulla että olette kiinnostuneita! Pyydän olemaan yhteydessä asiakas- ja myyntivastaavaan Cristian Weckströmiin: cristian.weckstrom@ryyber.com"
+      "Hienoa kuulla että olette kiinnostuneita! Pyydän olemaan yhteydessä asiakas- ja myyntivastaavaan Christian Weckströmiin: christian.weckstrom@ryyber.com"
   }
 ];
 
