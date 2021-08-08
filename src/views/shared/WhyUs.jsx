@@ -56,19 +56,19 @@ const WhyUs = () => {
       <div className="container pb-8 bring-to-front">
         <div className="section-heading text-center">
           <h2 className="heading-line">Järjestelmän kehitys</h2>
-          <p className="text-muted lead mx-auto">
+          <h5 className="text-muted font-weight-light">
             Järjestelmää on kehitetty Helmikuusta 2021 lähtien sivutyönä muiden päivätöiden ohella.
             Kehitys on jo niin pitkällä, että mahdollinen koeponnistus ja testijakso olisi mahdollista
             suorittaa jo vuoden 2021 loppupuolella.
-          </p>
-          <p className="text-muted lead mx-auto">
+          </h5>
+          <h5 className="text-muted mt-4 font-weight-light">
             Järjestelmä koostuu monesta eri palasesta: Kuluttajien puhelinsovellus, jätealan hallinnointisovellus,
             Hallinnointityökalut kuntien että jätealan käyttöön sekä koko maan kattava hallinnointi- ja datatyökalu.
-          </p>
+          </h5>
         </div>
 
         <div className="row gap-y">
-          <div className="col-md-7">
+          <div className="col-sm-12  col-lg-7">
             <h4 className="bold text-alternate">
               Etenemissuunnitelma
             </h4>
@@ -87,7 +87,7 @@ const WhyUs = () => {
   </div>*/}
           </div>
 
-          <div className="col-md-5">
+          <div className="d-none d-lg-block col-md-5">
             <div className="rotated-mockups device-twin">
               <div className="browser absolute shadow-lg">
                 <img

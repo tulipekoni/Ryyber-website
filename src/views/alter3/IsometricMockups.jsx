@@ -25,7 +25,7 @@ const renderMockups = () => {
 };
 
 const IsometricMockups = () => {
-  return <section className="isometric-mockups">{renderMockups()}</section>;
+  return <section className="d-none d-md-flex isometric-mockups">{renderMockups()}</section>;
 };
 
 export default IsometricMockups;

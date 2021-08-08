@@ -6,15 +6,15 @@ import Fade from "react-reveal/Fade";
 
 const founders = [
   {
-    name: "Joonas Konttila",
-    desc: "Graafikko, suunnittelija, ohjelmoija",
+    name: "Joonas",
+    desc: "Graafikko, ohjelmoija",
   },
   {
-    name: "Cristian Weckström",
-    desc: "Myyjä, visionääri, suunnittelija",
+    name: "Christian",
+    desc: "Myyjä, visionääri",
   },
   {
-    name: "Samuli Konttila",
+    name: "Samuli",
     desc: "Ohjelmoija",
   }
 ];
@@ -66,7 +66,7 @@ const MultipleDesignBlocks = () => {
           <div className="animation--rotating" />
         </div>
 
-        <div className="shape pattern-dots-1" />
+        <div className="d-none d-md-block shape pattern-dots-1" />
 
       </div>
 
@@ -78,7 +78,7 @@ const MultipleDesignBlocks = () => {
             Olemme myyjiä, graafikoita, koodareita ja visionäärejä.
           </p>
         </div>
-        <Row className="justify-content-around mt-3" >{renderProfiles()}</Row>
+        <div className="d-flex  justify-content-around mt-3" >{renderProfiles()}</div>
         <div className="mt-5 text-center">
           <h2 className="lead text-muted my-4 semi-bold">Kolme kunnianhimoista huippuosaajaa</h2>
           <p className="lead text-muted">

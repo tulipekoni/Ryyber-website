@@ -5,23 +5,23 @@ import { Fade } from "react-reveal";
 const FeaturesCantMiss = () => {
   return (
     <section id="app" className="section features-cant-miss">
-      <div className="shapes-container overflow-clear">
-        <div className="shape shape-circle shape-circle-1">
+      <div className=" shapes-container overflow-clear">
+        <div className="d-none d-md-block  shape shape-circle shape-circle-1">
           <Fade bottom right>
             <div />
           </Fade>
         </div>
-        <div className="shape shape-circle shape-circle-2">
+        <div className="d-none d-md-block shape shape-circle shape-circle-2">
           <Fade bottom left delay={300}>
             <div />
           </Fade>
         </div>
-        <div className="shape shape-circle shape-circle-3">
+        <div className="d-none d-md-block shape shape-circle shape-circle-3">
           <Fade bottom right delay={400}>
             <div />
           </Fade>
         </div>
-        <div className="shape shape-circle shape-circle-4">
+        <div className="d-none d-md-block shape shape-circle shape-circle-4">
           <Fade bottom right delay={600}>
             <div />
           </Fade>
@@ -77,7 +77,7 @@ const FeaturesCantMiss = () => {
             </ul>
           </Col>
 
-          <Col md="6">
+          <Col md="6" className="d-none d-md-block">
             <img
               src={require("assets/img/screens/app/iphone-mockup1.png")}
               className="img-responsive"

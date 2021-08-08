@@ -55,10 +55,27 @@
             &.bottom-right {
                 @include angled-edge('outside bottom', 'lower right', $color, 310);
             }
-
+            &.top-left-hero {
+                @include angled-edge('outside top', 'upper left', $color, 310);
+            }
             &.top-left {
                 @include angled-edge('outside top', 'upper left', $color, 310);
             }
         }
     }
+}
+@media only screen and (max-width: 768px) {
+ @each $i, $color in $theme-colors {
+    $from-color: lighten($color, 0.75);
+
+    .bg-#{$i} {
+        &.edge {
+
+            &.top-left-hero {
+                @include angled-edge('outside top', 'upper left', $color, 50);
+            }
+   
+        }
+    }
+}
 }

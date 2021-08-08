@@ -4,7 +4,7 @@ import { Container, Row, Col, } from "reactstrap";
 
 const Partners = () => {
   return (
-    <section className="section alter3-partners bg-contrast edge top-left">
+    <section className="section alter3-partners bg-contrast edge top-left-hero">
       <Container className="bring-to-front pb-md-9">
         <Row>
           <Col md="7">

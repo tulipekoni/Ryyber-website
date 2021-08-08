@@ -29,7 +29,7 @@ const questions = [
 
 const Faqs = () => {
   return (
-    <section id="faq" className="section faqs-dd bg-light edge top-left">
+    <section id="faq" className="section faqs-dd bg-light edge bottom-right top-left">
       <div className="shapes-container">
         <div className="absolute icon">
           <Fade top left>

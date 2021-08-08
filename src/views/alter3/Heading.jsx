@@ -40,18 +40,6 @@ const Heading = () => {
             <p className="lead">
               Ratkaisu tiukkoihin kierrätystavoitteisiin ja jätealan uudistuneen pelikentän hallintaan.
             </p>
-
-            {/*<Nav className="mt-5" tag="nav">
-              <NavLink
-                href="#!"
-                className="mr-3 btn btn btn-rounded btn-contrast"
-              >
-                Tutustu
-                <FontAwesomeIcon icon={["fas", "long-arrow-alt-right"]} className="ml-3 icon" />
-              </NavLink>
-
-
-  </Nav>*/}
           </Col>
         </Row>
       </Container>

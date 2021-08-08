@@ -92,12 +92,12 @@ const PowerfulFeatures = () => {
             </div>
           </Col>
 
-          <Col lg="7" className="pr-lg-6">
+          <Col xs="12" lg="7" className="pr-lg-6">
             <Row>
-              <Col lg="6" className="rotated-cards">
+              <Col xs="6" className="rotated-cards">
                 {createCards(0)}
               </Col>
-              <Col lg="6" className="rotated-cards">
+              <Col xs="6" className="rotated-cards">
                 {createCards(1)}
               </Col>
             </Row>
