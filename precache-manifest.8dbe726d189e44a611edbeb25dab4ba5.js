@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ba21d087254333be95902f0a1298ffa0",
+    "revision": "df345ba6a0d9e42b2273d15211c96f4d",
     "url": "/Ryyber-website/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ryyber-website/static/css/2.1c63b6fd.chunk.css"
   },
   {
-    "revision": "a28fd604fb32a50aaa7b",
-    "url": "/Ryyber-website/static/css/main.d19180aa.chunk.css"
+    "revision": "5139a2280ce087a3f815",
+    "url": "/Ryyber-website/static/css/main.9c17fd2e.chunk.css"
   },
   {
     "revision": "e7f1d146d8cd7412e47d",
     "url": "/Ryyber-website/static/js/2.55f4f018.chunk.js"
   },
   {
-    "revision": "a28fd604fb32a50aaa7b",
-    "url": "/Ryyber-website/static/js/main.b51a4896.chunk.js"
+    "revision": "5139a2280ce087a3f815",
+    "url": "/Ryyber-website/static/js/main.acbe0ffd.chunk.js"
   },
   {
     "revision": "251ccc67f14299262ad2",
