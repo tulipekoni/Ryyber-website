@@ -87,26 +87,12 @@ const WhyUs = () => {
   </div>*/}
           </div>
 
-          <div className="d-none d-lg-block col-md-5">
-            <div className="rotated-mockups device-twin">
-              <div className="browser absolute shadow-lg">
-                <img
-                  src={require("assets/img/screens/tablet/1.png")}
-                  alt="..."
-                />
-              </div>
+          <div className="d-none d-lg-block mockups">
 
-              <div className="front iphone light">
-                <div className="screen">
-                  <img
-                    src={require("assets/img/screens/app/1.png")}
-                    alt="..."
-                  />
-                </div>
-
-                <div className="notch" />
-              </div>
-            </div>
+            <img className="screen"
+              src={require("assets/img/screens/app/iphone-mockup3.png")}
+              alt="..."
+            />
           </div>
         </div>
       </div>

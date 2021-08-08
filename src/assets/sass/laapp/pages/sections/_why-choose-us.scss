@@ -1,4 +1,13 @@
 .why-choose-us {
+   .mockups{
+    position: absolute;
+    left: 50%;
+    width: 80%;
+     .screen{
+    width: 100%;
+  }
+  }
+ 
   .section-heading {
     @include media-breakpoint-up($grid-float-breakpoint) {
       margin-bottom: 120px;

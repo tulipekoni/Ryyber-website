@@ -25,6 +25,7 @@ const renderMockups = () => {
 };
 
 const IsometricMockups = () => {
+  return <section className="d-none d-md-flex isometric-mockups2"><img className="screen" src={require("assets/img/screens/app/iphone-mockup2.png")} /></section>;
   return <section className="d-none d-md-flex isometric-mockups">{renderMockups()}</section>;
 };
 
