@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Ryyber-website/precache-manifest.8dbe726d189e44a611edbeb25dab4ba5.js"
+  "/Ryyber-website/precache-manifest.4b4f60e9667477b617096119db9bff2d.js"
 );
 
 self.addEventListener('message', (event) => {
