@@ -34,30 +34,30 @@ const FeaturesCantMiss = () => {
       <Container>
         <Row className="gap-y">
           <Col lg="6" className="order-lg-last">
-            <div className="section-heading text-center text-lg-left">
-              <p className="px-2 text-alternate text-uppercase bold">
-                Mikä Ryyber?
+            <div className="section-heading ">
+              <p className="px-2 text-alternate text-uppercase bold text-lg-left text-center">
+                Miksi Ryyber?
               </p>
-              <h2 className="heading-line">
+              <h2 className="heading-line d-flex flex-column align-items-center d-lg-block text-center text-lg-left">
                 Liian passiivinen järjestelmä
               </h2>
 
-              <p className="lead text-muted my-4 semi-bold">
-                Ryyber ei tehosta, se aktivoi.
-              </p>
 
-              <p className="lead text-muted ">
+              <p className="lead text-muted text-lg-left text-center">
                 Nykyinen järjestelmä passivoi ihmisiä. Jätehuollosta on tehty liian helppoa, jolloin kierrätyksestä tulee
                 toissijainen asia.
               </p>
-              <p className="lead text-muted ">
+              <p className="lead text-muted text-lg-left text-center">
                 Ryyberin tarkoitus on tuoda roskalaatikot ihmisten aktiiviseen mieliin. Tällöin kierrätyksestä tulee itsestäänselvyys.
               </p>
-              <MoreInfoButton
-                className="btn btn-primary text-contrast bold"
-                text="Miten Ryyber aktivoi?"
-                to="app"
-              />
+              <div className="d-flex d-lg-block justify-content-center">
+                <MoreInfoButton
+                  className="btn btn-primary text-contrast bold"
+                  text="Miten Ryyber aktivoi?"
+                  to="app"
+                />
+              </div>
+
             </div>
           </Col>
 

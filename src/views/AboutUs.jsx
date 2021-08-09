@@ -89,6 +89,7 @@ const MultipleDesignBlocks = () => {
             Ryyberin tiimistä löytyy jokaisen alan ammattiosaajia, jotka ovat täydellä sydämmellä kehitystyössä mukana. Tämä takaa sen,
             että kykenemme reagoimaan nopeasti murroksessa olevan jätealan kehitykseen.
           </p>
+
         </div>
 
       </Container>

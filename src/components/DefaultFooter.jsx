@@ -25,7 +25,7 @@ const DefaultFooter = () => {
           <Col md="2">
             <Nav className="flex-column" tag="nav">
               <Link to="what" smooth offset={-50} className="py-2 text-contrast" href="#">
-                Mikä
+                Miksi
               </Link>
               <Link to="app" smooth offset={-50} className="py-2 text-contrast" href="#">
                 Sovellus

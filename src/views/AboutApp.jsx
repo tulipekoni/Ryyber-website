@@ -31,10 +31,10 @@ const createCards = use => {
 
     {
       class: "mt-6n mr-lg-auto",
-      icon: "close",
-      title: "header",
+      icon: "sun",
+      title: "Kaikki mukaan",
       animation: { delay: 1200 },
-      description: "Lorem ipsum."
+      description: "Jokainen voi osallistua omalla panoksella"
     }
   ];
 
