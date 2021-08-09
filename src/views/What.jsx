@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import PowerfulCard from "./PowerfulCard.jsx";
+import PowerfulCard from "../components/PowerfulCard.jsx";
 
 const createCards = use => {
   let features = [];
