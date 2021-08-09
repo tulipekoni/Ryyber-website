@@ -32,10 +32,10 @@ const renderProfiles = () => {
               className="img-responsive"
               alt=""
             />
-            <p className="lead text-muted font-weight-bold">
+            <p className="lead text-muted text-center font-weight-bold">
               {founders[i - 1].name}
             </p>
-            <p className="text-muted">
+            <p className="text-muted  text-center">
               {founders[i - 1].desc}
             </p>
           </div>
@@ -74,23 +74,21 @@ const MultipleDesignBlocks = () => {
       <Container>
         <div className="section-heading text-center">
           <h2 className="mt-3 heading-line">Keitä olemme</h2>
-          <p className="lead text-muted">
+          <p className="lead text-muted my-4 semi-bold">
             Olemme myyjiä, graafikoita, koodareita ja visionäärejä.
           </p>
         </div>
         <div className="d-flex  justify-content-around mt-3" >{renderProfiles()}</div>
         <div className="mt-5 text-center">
-          <h2 className="lead text-muted my-4 semi-bold">Kolme kunnianhimoista huippuosaajaa</h2>
           <p className="lead text-muted">
-            Kunnianhimoiset tavoitteet eivät toteudu ilman ammattimaisia tekijöitä. Laajat
-            kokonaisuudet vaativat monen eri alan osaajia, kokemusta ja valtavaa kehityksen halua.
+            Tavallisesti liiketoimintaan tarvittavat ohjelmistot ja tekninen osaaminen hankitaan ulkopuolisen yrityksen kautta.
+            Tämä voi johtaa hitaaseen kehitysnopeuteen, innovaatioiden vähenemiseen ja korkeisiin kehityskustannuksiin.
+            Tämä on Ryyberin etu.
           </p>
-
-          {/* <MoreInfoButton
-            className="btn btn-outline-alternate more-link mt-0"
-            text="Now is the time"
-            to="#!"
-         />*/}
+          <p className="lead text-muted">
+            Ryyberin tiimistä löytyy jokaisen alan ammattiosaajia, jotka ovat täydellä sydämmellä kehitystyössä mukana. Tämä takaa sen,
+            että kykenemme reagoimaan nopeasti murroksessa olevan jätealan kehitykseen.
+          </p>
         </div>
 
       </Container>

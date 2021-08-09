@@ -1,78 +1,45 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import PowerfulCard from "../components/PowerfulCard.jsx";
-
-const createCards = use => {
-  let features = [];
-  let cards = [
-    {
-      class: "mt-6 mt-6 mx-lg-auto",
-      icon: "paint-bucket",
-      title: "Joustava",
-      animation: { delay: 0 },
-      description: "Tilaa tyhjennys vasta tarvittaessa"
-    },
-
-    {
-      class: "mx-lg-auto",
-      icon: "light",
-      title: "Tehokas",
-      animation: { delay: 800 },
-      description: "Tarjoamme kuluttajalle helpot työkalut oman kulutuksen tarkasteluun"
-    },
-
-    {
-      class: "mr-lg-auto",
-      icon: "diamond",
-      title: "Kustannukset",
-      animation: { delay: 500 },
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-    },
-
-    {
-      class: "mt-6n mr-lg-auto",
-      icon: "cash",
-      title: "Affordable",
-      animation: { delay: 1200 },
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-    }
-  ];
-
-  cards.forEach((el, i) => {
-    if (i % 2 === use) {
-      features.push(<PowerfulCard {...el} key={i} />);
-    }
-  });
-
-  return features;
-};
-
-const PowerfulFeatures = () => {
+import { Fade } from "react-reveal";
+import MoreInfoButton from "components/MoreInfoButton";
+const FeaturesCantMiss = () => {
   return (
-    <section id="what" className="section alter3-features">
-      <div className="shapes-container">
-        <div className="shape shape-ring shape-ring-1">
-          <div className="animation animation--rotating" />
+    <section id="what" className="section features-cant-miss">
+      <div className=" shapes-container overflow-clear">
+        <div className="d-none d-lg-block  shape shape-circle shape-circle-1">
+          <Fade bottom right>
+            <div />
+          </Fade>
         </div>
-        <div className="shape shape-ring shape-ring-2">
-          <div className="animation animation--rotating" />
+        <div className="d-none d-lg-block shape shape-circle shape-circle-2">
+          <Fade bottom left delay={300}>
+            <div />
+          </Fade>
         </div>
-        <div className="shape shape-circle animation--clockwise">
-          <div />
+        <div className="d-none d-lg-block shape shape-circle shape-circle-3">
+          <Fade bottom right delay={400}>
+            <div />
+          </Fade>
+        </div>
+        <div className="d-none d-lg-block shape shape-circle shape-circle-4">
+          <Fade bottom right delay={600}>
+            <div />
+          </Fade>
         </div>
 
-        <div className="shape background-shape-main" />
+        <div className="shape shape-triangle shape-animated">
+          <div className="animation--rotating" />
+        </div>
       </div>
-
       <Container>
-        <Row>
-          <Col lg="5" className="order-lg-last">
+        <Row className="gap-y">
+          <Col lg="6" className="order-lg-last">
             <div className="section-heading text-center text-lg-left">
               <p className="px-2 text-alternate text-uppercase bold">
                 Mikä Ryyber?
               </p>
               <h2 className="heading-line">
-                Sovellus jolla voit tilata tyhjennyksen vasta tarvittaessa
+                Liian passiivinen järjestelmä
               </h2>
 
               <p className="lead text-muted my-4 semi-bold">
@@ -80,27 +47,27 @@ const PowerfulFeatures = () => {
               </p>
 
               <p className="lead text-muted ">
-                Nykyisen järjestelmän ongelmakohta on sen helppous. Kun ihminen ei aktiivisesti joudu miettimään
-                jätettään, siitä tulee toissijainen asia. Ryyberin tarkoitus on aktivoida, ei tehostaa.
+                Nykyinen järjestelmä passivoi ihmisiä. Jätehuollosta on tehty liian helppoa, jolloin kierrätyksestä tulee
+                toissijainen asia.
               </p>
-
-              {/*<MoreInfoButton
+              <p className="lead text-muted ">
+                Ryyberin tarkoitus on tuoda roskalaatikot ihmisten aktiiviseen mieliin. Tällöin kierrätyksestä tulee itsestäänselvyys.
+              </p>
+              <MoreInfoButton
                 className="btn btn-primary text-contrast bold"
-                text="Know More"
-                to="#!"
-              />*/}
+                text="Miten Ryyber aktivoi?"
+                to="app"
+              />
             </div>
           </Col>
 
-          <Col xs="12" lg="7" className="pr-lg-6">
-            <Row>
-              <Col xs="6" className="rotated-cards">
-                {createCards(0)}
-              </Col>
-              <Col xs="6" className="rotated-cards">
-                {createCards(1)}
-              </Col>
-            </Row>
+          <Col md="6" className="d-none d-lg-block">
+            <img
+              src={require("assets/img/screens/app/iphone-mockup1.png")}
+              className="img-responsive"
+              alt=""
+            />
+
           </Col>
         </Row>
       </Container>
@@ -108,4 +75,4 @@ const PowerfulFeatures = () => {
   );
 };
 
-export default PowerfulFeatures;
+export default FeaturesCantMiss;

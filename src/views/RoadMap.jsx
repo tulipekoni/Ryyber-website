@@ -57,7 +57,7 @@ const WhyUs = () => {
         <div className="section-heading text-center">
           <h2 className="heading-line">Järjestelmän kehitys</h2>
           <h5 className="text-muted font-weight-light">
-            Järjestelmää on kehitetty Helmikuusta 2021 lähtien sivutyönä muiden päivätöiden ohella.
+            Järjestelmää on kehitetty uutta jätelakia silmällä pitäen vuodesta 2020 alkaen.
             Kehitys on jo niin pitkällä, että mahdollinen koeponnistus ja testijakso olisi mahdollista
             suorittaa jo vuoden 2021 loppupuolella.
           </h5>
@@ -80,11 +80,6 @@ const WhyUs = () => {
             <ul className="list-unstyled why-icon-list">{renderFeatures()}</ul>
 
             <hr className="my-5" />
-            {/*<div className="text-center text-md-left">
-              <Link to="#!" className="btn btn-primary text-contrast">
-                Know More
-              </Link>
-  </div>*/}
           </div>
 
           <div className="d-none d-lg-block mockups">

@@ -15,11 +15,14 @@ const Partners = () => {
               </h3>
 
               <p className="lead">
-                Ratkaisua alhaisiin kierrätyslukemiin on pyritty ratkaisemaan lukuisilla eri menetelmillä. Jokainen tekninen
-                ratkaisu on kuitenkin unohtanut sen tärkeimmän kulmakiven koko järjestelmässä: Ihmisen.
+                Jäteala on murroksessa. Uudet EUn asettamat kierrätysmääräykset ovat synnyttäneet lukuisia innovaatioita
+                kierrätyksen, logistiikan ja jätteen uusiokäyttöön.
               </p>
               <p className="lead">
-                Jätehuoltoa voidaan optimoida lukuisilla eri teknisillä välineillä, mutta ratkaisu kierrätykseen löytyy
+                Jokainen innovaatio on kuitenkin unohtanun järjestelmän tärkeimmän yksilön: Ihmisen.
+              </p>
+              <p className="lead">
+                Jätehuollon logistiikkaa voidaan optimoida lukuisilla eri teknisillä välineillä, mutta ratkaisu kierrätykseen löytyy
                 jätteen alkulähteen luota, ihmisestä.
               </p>
             </div>
