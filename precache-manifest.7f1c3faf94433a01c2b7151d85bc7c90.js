@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "297a875854128c54fbc67071d1df23e8",
+    "revision": "121c724ece5a923b0270a9f7bffd47c8",
     "url": "/index.html"
   },
   {
-    "revision": "40f1e20f3df0864d1aec",
+    "revision": "8baa426726cd14a3584e",
     "url": "/static/css/2.71546905.chunk.css"
   },
   {
-    "revision": "8dedd70a757faadd35c8",
+    "revision": "cdf95c51ec1136668394",
     "url": "/static/css/main.371790c8.chunk.css"
   },
   {
-    "revision": "40f1e20f3df0864d1aec",
-    "url": "/static/js/2.9fe27731.chunk.js"
+    "revision": "8baa426726cd14a3584e",
+    "url": "/static/js/2.cee50ea3.chunk.js"
   },
   {
-    "revision": "8dedd70a757faadd35c8",
-    "url": "/static/js/main.fb37f5fa.chunk.js"
+    "revision": "cdf95c51ec1136668394",
+    "url": "/static/js/main.e2735da0.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -40,12 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Pe-icon-7-stroke.c45f7de0.svg"
   },
   {
-    "revision": "8c9d7b2358a008ee4730700f3433d3e7",
-    "url": "/static/media/avatar.8c9d7b23.png"
-  },
-  {
-    "revision": "7319cd20da6a6e1ccecbc0bb84d9ff8a",
-    "url": "/static/media/iphone-mockup1.7319cd20.png"
+    "revision": "b23f4b1d57356c56f7727c1d6ba1062d",
+    "url": "/static/media/iphone-mockup1.b23f4b1d.png"
   },
   {
     "revision": "5823116d58dda3b0f2b5ab1ae7258908",

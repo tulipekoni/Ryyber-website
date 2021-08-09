@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.371790c8.chunk.css",
-    "main.js": "/static/js/main.fb37f5fa.chunk.js",
-    "main.js.map": "/static/js/main.fb37f5fa.chunk.js.map",
+    "main.js": "/static/js/main.e2735da0.chunk.js",
+    "main.js.map": "/static/js/main.e2735da0.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/css/2.71546905.chunk.css": "/static/css/2.71546905.chunk.css",
-    "static/js/2.9fe27731.chunk.js": "/static/js/2.9fe27731.chunk.js",
-    "static/js/2.9fe27731.chunk.js.map": "/static/js/2.9fe27731.chunk.js.map",
+    "static/js/2.cee50ea3.chunk.js": "/static/js/2.cee50ea3.chunk.js",
+    "static/js/2.cee50ea3.chunk.js.map": "/static/js/2.cee50ea3.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.79aa73ac473e407ad224f4a1aaea5415.js": "/precache-manifest.79aa73ac473e407ad224f4a1aaea5415.js",
+    "precache-manifest.7f1c3faf94433a01c2b7151d85bc7c90.js": "/precache-manifest.7f1c3faf94433a01c2b7151d85bc7c90.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.71546905.chunk.css.map": "/static/css/2.71546905.chunk.css.map",
     "static/css/main.371790c8.chunk.css.map": "/static/css/main.371790c8.chunk.css.map",
     "static/media/pe-icon-7-stroke.css": "/static/media/Pe-icon-7-stroke.c45f7de0.svg",
-    "static/media/avatar.png": "/static/media/avatar.8c9d7b23.png",
-    "static/media/iphone-mockup1.png": "/static/media/iphone-mockup1.7319cd20.png",
+    "static/media/iphone-mockup1.png": "/static/media/iphone-mockup1.b23f4b1d.png",
     "static/media/iphone-mockup2.png": "/static/media/iphone-mockup2.5823116d.png",
     "static/media/iphone-mockup3.png": "/static/media/iphone-mockup3.9d0fb775.png"
   }
