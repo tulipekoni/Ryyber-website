@@ -8,17 +8,17 @@ const renderFeatures = () => {
     {
       name: "Sovelluksen julkaisu",
       icon: faPaperPlane,
-      description: "Järjestelmän tärkeimpänä tukipilarina on kuluttajan sovellus. Sen loppukehitys ja julkaisu on välttämätön askel koko järjestelmän kehityksen kannalta."
+      description: "Järjestelmän tärkeimpänä tukipilarina on kuluttajan sovellus. Sen loppukehitys ja julkaisu on ensimmäisiä suuria askelia Ryyberin etenemissuunnitelmassa."
     },
     {
       name: "Testijakso",
       icon: faUsers,
-      description: "On ensisijaisen tärkää selvittää konseptin toimivuus ja selvittää, aktivoiko sovellus ihmisiä kierrättämään. Testijaksosta saadaan myös korvaamatonta tietoa järjestelmän toimivuudesta."
+      description: "On ensisijaisen tärkeää selvittää konseptin toimivuus ja koeponnistaa järjestelmä mahdollisimman pian. Laaja testaus ja siitä saatu palaute on valtava apu järjestelmän jatkokehitykselle."
     },
     {
       name: "Rahoitus",
       icon: faReceipt,
-      description: "Ryyberin kaltaisen järjestelmän kehitys on hidasta hommaa, eikä sitä tulla saamaan maaliin ilman ulkopuolista tukea. Rahoituksen saaminen on ensiarvoisen tärkeää koko projektin kannalta."
+      description: "Ryyberin kaltaisen järjestelmän kehitys on raskasta työtä. Kaikki ylimääräinen apu järjestelmän kehitykseen on erittäin tervetullutta."
     }
   ];
 
@@ -26,8 +26,8 @@ const renderFeatures = () => {
     features.push(
       <li className="list-item" key={i}>
         <div className="media align-items-center">
-          <div className="icon-shape mr-3">
-            <div className="shape shape-pipes" />
+          <div className="d-none d-md-block icon-shape mr-3">
+            <div className=" shape shape-pipes" />
             <FontAwesomeIcon
               icon={f.icon}
               className="icon fa-3x text-alternate"
@@ -62,22 +62,21 @@ const WhyUs = () => {
             suorittaa jo vuoden 2021 loppupuolella.
           </h5>
           <h5 className="text-muted mt-4 font-weight-light">
-            Järjestelmä koostuu monesta eri palasesta: Kuluttajien puhelinsovellus, jätealan hallinnointisovellus,
-            Hallinnointityökalut kuntien että jätealan käyttöön sekä koko maan kattava hallinnointi- ja datatyökalu.
+            Järjestelmä koostuu monesta eri palasesta: Kuluttajien puhelinsovellus, jätealan hallinnointisovellus sekä
+            hallinnointi- ja datatyökalut kuntien että jätealan käyttöön.
+          </h5>
+          <h5 className="text-muted mt-4 font-weight-light">
+            Tavoitteet ovat kunnianhimoisia, mutta järjestelmä kehittyy yksi palanen kerrallaan.
           </h5>
         </div>
 
         <div className="row gap-y">
-          <div className="col-sm-12  col-lg-7">
-            <h4 className="bold text-alternate">
+          <div className="col-sm-12 col-lg-7">
+            <h4 className="bold  text-alternate">
               Etenemissuunnitelma
             </h4>
-            <p className="text-muted lead mb-5">
-              Järjestelmän tavoitteet ovat kunnianhimoisia, ja niitä ei saavuteta ilman ulkopuolista tukea. Järjestelmän
-              jokainen osa-alue edistyy jatkuvasti eteenpäin. Tässä tärkeimmät tulevat tavoitteet:
-            </p>
 
-            <ul className="list-unstyled why-icon-list">{renderFeatures()}</ul>
+            <ul className="list-unstyled mt-5 why-icon-list">{renderFeatures()}</ul>
 
             <hr className="my-5" />
           </div>

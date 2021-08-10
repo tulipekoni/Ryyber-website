@@ -8,7 +8,7 @@ const questions = [
   {
     question: "Kuka vastaa järjestelmän kehityksestä?",
     answer:
-      "Me. Tavallisesti nopeasti kehittyvien yritysten vauhtia hidastaa kaikki ulkoistettu toiminta. Meillä koko järjestelmän kehitys tapahtuu talon sisällä alan ammattilaisten toimesta. Tämän johdosta Ryyber kykenee reagoimaan muuttuvaan yrityskenttään äärimmäisen nopeasti."
+      "Me. Tavallisesti nopeasti kehittyvien yritysten vauhtia hidastaa kaikki ulkoistettu toiminta. Meillä koko järjestelmän kehitys tapahtuu talon sisällä alan ammattilaisten toimesta. Tämän johdosta Ryyber kykenee reagoimaan murroksessa olevaan jätealaan äärimmäisen nopeasti."
   },
   {
     question: "Onko kehityksessä otettu huomioon uusi jätelaki ja sen tuomat muutokset?",
@@ -23,7 +23,7 @@ const questions = [
   {
     question: "Olisin kiinnostunut kuulemaan järjestelmästä lisää. Miten teihin voi ottaa yhteyttä?",
     answer:
-      "Hienoa kuulla että olette kiinnostuneita! Pyydän olemaan yhteydessä asiakas- ja myyntivastaavaan Christian Weckströmiin: christian.weckstrom@ryyber.com"
+      "Hienoa kuulla että olette kiinnostuneita! Pyydän olemaan yhteydessä asiakas- ja myyntivastaavaan Christian Weckströmiin: christian.weckstrom@ryyber.com. Odotamme yhteydenottoanne!"
   }
 ];
 

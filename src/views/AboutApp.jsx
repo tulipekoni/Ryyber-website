@@ -94,12 +94,21 @@ const PowerfulFeatures = () => {
                   <p className="m-0">
                     Ryyber on rakennettu siten, että sillä kyetään keräämään valtavan tarkkaa dataa
                     ihmisten kierrätyksestä ja jätehuollon toiminnasta. Tätä tietoa voidaan hyödyntää monipuolisesti
-                    päätöksen teon tukena.
+                    päätöksenteon tukena.
                   </p>
                 </div>
               </li>
 
-
+              <li className="media flex-column flex-md-row text-center text-md-left mt-4">
+                <i className="mx-auto mr-md-3 mx-auto mr-md-3 accent pe pe-7s-light pe-3x" />
+                <div className="media-body mt-3 mt-md-0">
+                  <h5 className="bold mt-0 mb-1">Ongelmien ratkaisija</h5>
+                  <p className="m-0">
+                    Jokainen on joskus taistellut täpötäyden roskalaatikon kanssa odottaen seuraavaa tyhjennyskertaa. Ryyberillä
+                    tilaat tyhjennyksen astian ollessa täysi.
+                  </p>
+                </div>
+              </li>
             </ul>
           </Col>
 

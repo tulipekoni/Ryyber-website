@@ -7,7 +7,7 @@ const Subscribe = () => {
       <Container className="bring-to-front">
         <div className="shadow rounded p-5 bg-contrast overflow-hidden">
           <div className="section-heading text-center">
-            <h2 className="heading-line">Pysykää kuulolla</h2>
+            <h2 className="heading-line">Pysy kuulolla</h2>
             <p className="lead  text-muted">
               Kannattaa laittaa Ryyber korvan taakse. Jätealalle on luvattu ukkosmyrsky, kohta jyrisee!
             </p>
