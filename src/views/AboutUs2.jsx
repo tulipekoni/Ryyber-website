@@ -45,15 +45,15 @@ const renderItems = () => {
                         <p className="lead text-light text-center font-weight-bold">
                             {founders[i - 1].exp}
                         </p>
-                        <p className="text-light text-center">
+                        <h6 className="text-light font-weight-normal  text-center">
                             {founders[i - 1].exp2}
-                        </p>
+                        </h6>
                     </div>
                     <div className="founder-card">
                         <p className="lead text-muted text-center font-weight-bold">
                             {founders[i - 1].name}
                         </p>
-                        <p className="text-muted  text-center">
+                        <p className="text-muted text-center">
                             {founders[i - 1].title1}
                         </p>
                     </div>
@@ -101,8 +101,8 @@ const MultipleDesignBlocks = () => {
                                 Tarvitaan toimintaa ja tekoja! Siksi valjastimme oman osaamisemme ongelman ratkaisemiseksi.
                             </p>
                             <p className="lead text-muted text-center text-md-left">
-                                Ryyberin tiimistä löytyy jokaisen alan ammattiosaajia, jotka ovat täydellä sydämmellä kehitystyössä mukana.
-                                Intohimo kierrätysongelman ratkaisuun ajaa kehitystyötä valtavalla voimalla eteenpäin.
+                                Ryyberin tiimistä löytyy jokaisen alan ammattiosaajia, jotka ovat täydellä sydämellä kehitystyössä mukana.
+                                Intohimo yhteisen ongelman ratkaisuun ja siihen vaadittava ammattitaito ovat tärkeimpiä kehitystyömme työkaluja.
                             </p>
                         </div>
 

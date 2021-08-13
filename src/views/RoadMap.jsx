@@ -18,7 +18,7 @@ const renderFeatures = () => {
     {
       name: "Rahoitus",
       icon: faReceipt,
-      description: "Ryyberin kaltaisen järjestelmän kehitys on raskasta työtä. Kaikki ylimääräinen apu järjestelmän kehitykseen on erittäin tervetullutta."
+      description: "Kehitystyö on vaativaa. Siitä syystä onkin aika kutsua yhteistyökumppanit mukaan rakentamaan tulevaisuuden jätehuollon menestystarinaa!"
     }
   ];
 
